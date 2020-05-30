@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* the root element for css variables */
 :root{
     --main-color:#00ff84;
 }
@@ -35,6 +36,7 @@ form{
     align-items: center;
 
 }
+/* styling the search icon */
 i{
     font-size: 39px;
     margin-left: 8px;
@@ -43,6 +45,7 @@ i{
     transition: .4s ease;
 
 }
+/* hover effects */
 i:hover {
     transform: rotate(30deg);
 }
